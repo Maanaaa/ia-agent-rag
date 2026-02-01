@@ -1,0 +1,21 @@
+RÉFÉRENTIEL TARIFAIRE 2026 DE L'AGENCE
+
+TAUX HORAIRES
+- Développement / Intégration : 75€ / heure
+- Design UI/UX : 65€ / heure
+- Gestion de projet & Réunion : 80€ / heure
+
+FORFAITS DE BASE (Installation & Setup)
+- Setup WordPress + Hébergement + Sécurité : 450€
+- Pack SEO de base : 300€
+
+ESTIMATION DE TEMPS PAR FONCTIONNALITÉ (Moyenne)
+- Page vitrine standard : 4h à 6h / page
+- Formulaire de contact complexe : 2h
+- Blog (Configuration + Design liste) : 5h
+- Intégration maquette fournie : 8h / page
+
+RÈGLES DE CALCUL
+- TOUJOURS appliquer une marge d'erreur de 20% sur le total d'heures estimées pour pallier les imprévus techniques.
+- Arrondir les estimations à la dizaine supérieure.
+- Préciser que le tarif final dépend d'un cahier des charges validé.
