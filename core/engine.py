@@ -4,7 +4,7 @@ import os
 def get_estimation(user_query):
     # Chemin dynamique
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    path = os.path.join(base_dir, "data", "data.txt")
+    path = os.path.join(base_dir, "data", "pricing_model.txt")
     
     with open(path, "r", encoding="utf-8") as file:
         referentiel = file.read()
