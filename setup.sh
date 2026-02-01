@@ -12,7 +12,7 @@ fi
 echo "Création du venv..."
 python -m venv venv
 
-# Installation (on utilise le chemin Windows pour l'exécutable dans le venv)
+# Installation
 echo "Installation des dépendances..."
 ./venv/Scripts/python -m pip install --upgrade pip
 ./venv/Scripts/pip install ollama streamlit
