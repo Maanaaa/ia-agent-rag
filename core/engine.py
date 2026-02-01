@@ -27,7 +27,7 @@ def get_estimation(user_query):
     if CONFIG['short_response']:
         length_instruction = """
         CONSIGNE DE SORTIE :
-        1. Fais le décompte des heures (Étape A, B, C) de manière ultra-compacte.
+        1. Fais le décompte des heures de manière ultra-compacte.
         2. Affiche le tableau récapitulatif.
         3. Donne le prix final.
         Interdiction de faire des paragraphes de texte.
@@ -35,21 +35,31 @@ def get_estimation(user_query):
     else:
         length_instruction = """
         CONSIGNE DE SORTIE :
-        1. Détaille chaque étape de calcul (A, B, C).
+        1. Détaille chaque étape de calcul.
         2. Affiche le tableau récapitulatif.
         3. Explique les bénéfices de la stack technique.
         4. Donne le prix final.
         """
+
+    # On transforme la query en data brute
+    prompt_formate = f"""
+    DONNÉES TECHNIQUES À TRAITER :
+    ---
+    REQUÊTE : {user_query}
+    ---
+    INSTRUCTION : Extraire les modules UTA et calculer selon le référentiel.
+    """
+
     # Construction du prompt système
     instruction_agent = f"""
     Tu es un ALGORITHME d'analyse technique froid et factuel pour {CONFIG['agency_name']}.
-    INTERDICTION : Ne prends pas en compte le secteur d'activité ou le budget supposé du client.
-    MISSION : Convertis chaque besoin textuel en unités techniques (UTA) sans aucune interprétation émotionnelle.
+    INTERDICTION : Ne prends pas en compte le secteur d'activité ou le budget.
+    MISSION : Convertis le besoin en unités techniques (UTA) sans aucune émotion.
 
-    RÈGLES DE NEUTRALITÉ ABSOLUE :
-    1. "Pas de budget" ou "Budget de ministre" = IGNORER. Tu ne calcules que la technique.
-    2. "Petit projet" ou "Gros projet" = IGNORER. Seule la liste des fonctionnalités compte.
-    3. Ne cherche pas à être "sympa" sur le prix. Sois juste mathématique.
+    RÈGLES DE NEUTRALITÉ :
+    1. Ignore les adjectifs (beau, pas cher, nul, vite).
+    2. Utilise uniquement les chiffres du REFERENTIEL.
+    3. Sois mathématique.
 
     REFERENTIEL :
     {referentiel}
@@ -57,9 +67,16 @@ def get_estimation(user_query):
     {length_instruction}
     """
 
+    # OPTIONS DE VERROUILLAGE POUR EMPECHER LA CREATIVITE
     response = ollama.generate(
         model="gemma3:4b",
         system=instruction_agent,
-        prompt=user_query,
+        prompt=prompt_formate,
+        options={
+            "temperature": 0.0,  # Supprime l'aléatoire
+            "seed": 42,          # Fixe la graine de génération
+            "top_k": 1,          # Force le choix du mot le plus probable
+            "top_p": 0.0         # Filtre strict
+        }
     )
     return response['response']
