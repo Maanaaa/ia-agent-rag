@@ -1,0 +1,26 @@
+MODÈLE DE DONNÉES
+
+1. STRUCTURE & PAGES (Taux : 75€/h)
+- STRUC_BASE : 6h
+- PAGE_STD : 4h
+- PAGE_DYN : 7h
+- PAGE_TUNNEL : 8h
+
+2. FONCTIONNALITÉS (Taux : 75€/h)
+- FORM_STD : 1.5h
+- FORM_CX : 4h
+- BLOG_SETUP : 5h
+- AUTH_USER : 10h
+- RESA_MOD : 8h
+- API_EXT : 6h
+
+3. DESIGN UI/UX (Taux : 65€/h)
+- UX_PROTO : 1h/page
+- UI_DESIGN : 3h/page
+
+RÈGLES DE CALCUL INVIOLABLES
+- Coefficient de Complexité (C) : 1.0 (Standard), 1.3 (Avancé), 1.6 (Expert)
+- Temps Technique (T) = (Somme des UTA) × C × 1.20 (Marge d'erreur)
+- Gestion de projet (G) = T × 0.20 (Taux : 80€/h)
+- Forfaits : SETUP_WP (450€), SEO_BASE (300€)
+- Arrondi : Le montant total final doit être arrondi à la dizaine supérieure.
