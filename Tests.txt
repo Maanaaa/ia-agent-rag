@@ -1,0 +1,116 @@
+Tests : 
+prompt: 
+Je suis restaurateur et mon site actuel est nul. Je veux un truc beau où les gens peuvent réserver une table le samedi soir. Il me faut aussi une galerie photo pour mes plats et que les gens puissent nous trouver sur Google. J'ai pas un budget de ministre, faites au mieux !
+1.6780
+2.4470
+3.2760
+4.7860
+5.4600
+6.3480
+7.3890
+8.2770
+9.4190
+10.7762
+
+Même test mais cette fois-ci: focus sur le fondement du calcul : 
+1. Réponse :
+Module	Code UTA	Heures	Note technique
+Accueil	CORE_SETUP	4h	Installation serveur et configuration sécurisée
+Arborescence & Header/Footer	STRUC_BASE	4h	Structure standard pour un site restaurant
+Page Accueil (Texte/Image)	PAGE_STD	3h	Description du restaurant, ambiance
+Page Accueil (Listing Blog)	PAGE_DYN	5h	Création d'un blog pour annoncer les plats du jour et événements
+Page Réservation (Landing Page)	PAGE_TUNNEL	8h	Optimisation pour la réservation de tables le samedi soir (formulaire, CTA clair)
+Formulaire de Contact	FORM_STD	1h	Formulaire classique pour les demandes
+Formulaire Réservation Conditionnel	FORM_ADV	4h	Formulaire de réservation avec validation des disponibilités
+Espace Membre & Connexion	AUTH_GATE	6h	Espace membre pour les clients fidèles
+Boutique en Ligne (Produits)	ECOM_BASE	8h	Création d'une boutique simple pour la vente de produits (plats préparés, etc.)
+Intégration Stripe	PAY_STRIPE	4h	Configuration de la passerelle de paiement Stripe
+Galeries Photos	UX_WIREFRAME	2h/page	Structure et planification des galeries photo
+Design Photos Galeries	UI_GRAPHIC	4h/page	Design des galeries photo (mise en page, retouche photos)
+Optimisation SEO	SEO_ESSENTIAL	6h	Optimisation RankMath/Yoast, création de balises méta
+Optimisation Google Maps	API_SYNC	2h	Intégration de Google Maps pour une meilleure visibilité
+RÉCAPITULATIF FINANCIER :
+
+Temps de production (T) : 65h (incluant marge de sécurité)
+Accompagnement & Gestion (G) : 13h
+Forfaits applicables : Aucun
+PRIX FINAL : "TOTAL FINAL (TTC) : 4 750 €"
+2.
+Module	Code UTA	Heures	Note technique
+UX_WIREFRAME (Page d'accueil)	UX_WF_1	3h	Structure de base pour la navigation et la présentation.
+UI_GRAPHIC (Page d'accueil)	UI_GR_1	4h	Design final de la page d'accueil, mise en valeur de l'ambiance.
+PAGE_TUNNEL (Page d'accueil)	PAGE_TUNNEL	6h	Landing page optimisée pour la conversion, focus réservation soirée.
+PAGE_DYN (Page Menu)	PAGE_DYN	8h	Création du listing des plats avec photos, description détaillée.
+PAGE_DYN (Galerie Photos)	PAGE_DYN	10h	Création d'une galerie photo attractive et responsive.
+FORM_STD (Formulaire Contact)	FORM_STD	1h	Formulaire de contact simple pour les demandes.
+FORM_ADV (Formulaire Réservation)	FORM_ADV	6h	Formulaire de réservation avancé avec gestion des disponibilités (surtout samedi soir).
+AUTH_GATE (Espace Client - Optionnel)	AUTH_GATE	4h	Création d'un espace client pour les clients fidèles (si besoin).
+API_SYNC (Intégration Google Maps)	API_SYNC	4h	Intégration de Google Maps pour faciliter la localisation.
+RÉCAPITULATIF FINANCIER :
+
+Temps de production (T) : 52h (incluant marge de sécurité)
+Accompagnement & Gestion (G) : 13h
+Forfaits applicables : Aucun
+PRIX FINAL : "TOTAL FINAL (TTC) : 4 490 €"
+3.
+TABLEAU DES PRESTATIONS :
+
+Module	Code UTA	Heures	Note technique
+UX_WIREFRAME - Page d'accueil	UX_WF_1	3h	Structure de base pour la navigation et l'appel à l'action.
+UI_GRAPHIC - Page d'accueil	UI_GR_1	4h	Création de maquettes attrayantes pour la page d'accueil.
+PAGE_TUNNEL - Page d'accueil	PAGE_T_1	6h	Optimisation conversion, CTA "Réserver".
+PAGE_STD - Galerie Photo	PAGE_S_1	8h	Création d’une galerie photo responsive.
+PAGE_STD - Page "À Propos"	PAGE_S_2	4h	Présentation de votre établissement.
+PAGE_DYN - Page Menu	PAGE_D_1	12h	Listing des plats avec descriptions, photos et prix.
+FORM_STD - Formulaire Réservation	FORM_ST_1	3h	Formulaire de réservation simple et efficace.
+FORM_ADV - Formulaire Réservation (conditionnel)	FORM_AD_1	5h	Formulaire de réservation avec validation.
+AUTH_GATE - Espace Client (Optionnel)	AUTH_G_1	4h	Création d'un espace client pour les clients fidèles.
+RÉCAPITULATIF FINANCIER :
+
+Temps de production (T) : 61h (incluant marge de sécurité)
+Accompagnement & Gestion (G) : 18.3h
+Forfaits applicables : Aucun
+PRIX FINAL : "TOTAL FINAL (TTC) : 4884 €"
+4.
+TABLEAU DES PRESTATIONS :
+
+Module	Code UTA	Heures	Note technique
+Accueil	CORE_SETUP	4h	Installation serveur, SSL, config sécurité.
+Arborescence	STRUC_BASE	4h	Création arborescence et éléments globaux.
+Page Statique	PAGE_STD	3h	Page d’accueil avec description du restaurant et horaires.
+Page Blog	PAGE_DYN	6h	Page blog pour partager des recettes et événements.
+Landing Page	PAGE_TUNNEL	8h	Page d’atterrissage optimisée pour la réservation du samedi soir.
+Formulaire Contact	FORM_STD	1h	Formulaire de contact classique.
+Formulaire Réservation	FORM_ADV	4h	Formulaire de réservation avec validation et gestion des disponibilités.
+Espace Membre	AUTH_GATE	4h	Création d'un espace membre pour les clients réguliers.
+Boutique en Ligne	ECOM_BASE	8h	Création d’une petite boutique en ligne pour la vente de produits (menus, etc.).
+Intégration Stripe	PAY_STRIPE	4h	Configuration de la passerelle de paiement Stripe.
+Galerie Photos	UX_WIREFRAME	2h	Structure Wireframe pour la galerie photo.
+Design Photos	UI_GRAPHIC	8h	Design final des maquettes photo.
+Animations	ANIM_INTER	2h	Animations Bricks/GSAP globales (minimalistes).
+RÉCAPITULATIF FINANCIER :
+
+Temps de production (T) : 66h (incluant marge de sécurité)
+Accompagnement & Gestion (G) : 20h
+Forfaits applicables : Aucun
+PRIX FINAL : "TOTAL FINAL (TTC) : 5 460 €"
+
+5.
+TABLEAU DES PRESTATIONS :
+
+Module	Code UTA	Heures	Note technique
+Accueil	CORE_SETUP	4h	Installation serveur, SSL, config sécurité.
+Arborescence	STRUC_BASE	4h	Création arborescence, header/footer global.
+Page Menu	PAGE_STD	2h	Page statique simple (Menu, horaires, infos).
+Page Réservation	PAGE_TUNNEL	8h	Landing page optimisée réservation (intégration système de réservation).
+Galerie Photos	PAGE_STD	6h	Page statique avec Query Loop (Affichage galerie photos plats).
+SEO Essentials	SEO_ESSENTIAL	8h	Optimisation RankMath/Yoast, Indexation, balises meta.
+UX Wireframe	UX_WIREFRAME	3h	Structure noir et blanc du site.
+UI Graphic	UI_GRAPHIC	6h	Design final (Maquettes).
+Animations	ANIM_INTER	2h	Animations Bricks/GSAP globales.
+RÉCAPITULATIF FINANCIER :
+
+Temps de production (T) : 53h (incluant marge de sécurité)
+Accompagnement & Gestion (G) : 26.5h
+Forfaits applicables : Aucun
+PRIX FINAL : "TOTAL FINAL (TTC) : 2 770 €"
